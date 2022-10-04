@@ -131,6 +131,25 @@
 }
 
 
+@media screen and (max-width: 510px) {
+
+    .third-project {
+        padding: 0;
+    }
+    .container-slider {
+        width: 400px;
+        margin: 0 auto;
+    }
+    .menu__items a {
+        font-size: 10px;
+        margin-right: 2px;
+    }
+
+    .logo {
+        margin: 0 1px;
+    }
+}
+
 
 
 
