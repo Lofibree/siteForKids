@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calcKids.css">
+    <title>calcForKids</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class='calc' id='calc'>
+            <div class='userInput'>
+                <input id="userInput" placeholder="0">
+            </div>
+                <button id='1' class='btn' onclick="press(1)">1</button>
+                <button id='2' class='btn' onclick="press(2)">2</button>
+                <button id='3' class='btn' onclick="press(3)">3</button>
+                <button id='+' class='btn operation' onclick="press('+')">+</button>
+                <button id='4' class='btn' onclick="press(4)">4</button>
+                <button id='5' class='btn' onclick="press(5)">5</button>
+                <button id='6' class='btn' onclick="press(6)">6</button>
+                <button id='-' class='btn operation' onclick="press('-')">-</button>
+                <button id='7' class='btn' onclick="press(7)">7</button>
+                <button id='8' class='btn' onclick="press(8)">8</button>
+                <button id='9' class='btn' onclick="press(9)">9</button>
+                <button id='*' class='btn operation' onclick="press('*')">*</button>
+                <button id=',' class='btn' onclick="press('.')">.</button>
+                <button id='0' class='btn' onclick="press(0)">0</button>
+                <button id='=' class='btn operation' onclick="erase('C')">C</button>
+                <button id='/' class='btn operation' onclick="press('/')">/</button>
+                <button id='=' class='btnEqual' onclick="equal('=')">=</button>
+        </div>
+    </div>
+
+
+
+    <script src="./calcKids.js"></script>
+</body>
+
+</html>
